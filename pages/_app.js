@@ -1,8 +1,8 @@
 import '../styles/globals.css';
-import MetaContainer from '../components/MetaContainer';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
+import MetaContainer from '../components/MetaContainer';
 import * as ga from '../lib/google-analytics';
 
 function MyApp({ Component, pageProps }) {
