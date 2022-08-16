@@ -23,12 +23,22 @@ const Hero = () => {
           </p>
           <div className="flex flex-wrap">
             <a href="mailto:ian@courtesyflushers.ca">
-              <button className="px-4 py-2 my-5 mr-5 font-bold text-white rounded bg-brand-gray hover:bg-brand-secondary">
+              <button
+                type="button"
+                className="px-4 py-2 my-5 mr-5 font-bold text-white rounded bg-brand-gray hover:bg-brand-secondary"
+              >
                 Send an Email
               </button>
             </a>
-            <a target="_blank" href="https://facebook.com/courtesyflushers">
-              <button className="px-4 py-2 my-5 mr-5 font-bold text-white rounded bg-facebook-brand hover:bg-brand-secondary">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://facebook.com/courtesyflushers"
+            >
+              <button
+                type="button"
+                className="px-4 py-2 my-5 mr-5 font-bold text-white rounded bg-facebook-brand hover:bg-brand-secondary"
+              >
                 Follow on Facebook
               </button>
             </a>
