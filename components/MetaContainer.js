@@ -1,15 +1,20 @@
-import React from 'react';
-import Head from 'next/head';
-import { useRouter } from 'next/router';
+import Head from "next/head";
+import { useRouter } from "next/router";
+import React from "react";
+
+/**
+ * MetaContainer: This contains all of the meta data for site-wide
+ * @return {JSX.Element} The JSX Code for the Meta Page
+ */
 
 export default function MetaContainer({ children, customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: 'Courtesy Flushers | Our Business is Literally your Business',
+    title: "Courtesy Flushers | Our Business is Literally your Business",
     description: `A Nova Scotia plumbing and septic pumping service company`,
-    image: '../public/images/courtesy-flushers.png',
-    type: 'website',
+    image: "../public/images/courtesy-flushers.png",
+    type: "website",
     date: new Date().toDateString(),
     ...customMeta,
   };

@@ -3,13 +3,13 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   eslint: {
-    dirs: ['.'],
+    dirs: ["."],
   },
   images: {
-    formats: ['image/avif', 'image/webp'],
+    formats: ["image/avif", "image/webp"],
   },
   env: {
-    GOOGLE_ANALYTICS_ID: 'G-VFQXW7DZQT',
+    GOOGLE_ANALYTICS_ID: "G-VFQXW7DZQT",
   },
 };
 

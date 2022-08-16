@@ -1,9 +1,10 @@
-import '../styles/globals.css';
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
-import Script from 'next/script';
-import MetaContainer from '../components/MetaContainer';
-import * as ga from '../lib/google-analytics';
+import "../styles/globals.css";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+import Script from "next/script";
+import MetaContainer from "../components/MetaContainer";
+import * as ga from "../lib/google-analytics";
+import React from "react";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -13,9 +14,9 @@ function MyApp({ Component, pageProps }) {
       ga.pageview(url);
     };
 
-    router.events.on('routeChangeComplete', handleRouteChange);
+    router.events.on("routeChangeComplete", handleRouteChange);
     return () => {
-      router.events.off('routeChangeComplete', handleRouteChange);
+      router.events.off("routeChangeComplete", handleRouteChange);
     };
   }, [router.events]);
 
