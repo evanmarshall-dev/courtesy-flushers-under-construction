@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 const Hero = () => {
-  <div className="hero">
+  <section className="hero">
     <div className="flex flex-wrap justify-evenly">
       <div className="flex flex-col justify-center w-1/3 mx-auto">
         <h1 className="text-6xl">
@@ -51,7 +51,7 @@ const Hero = () => {
         />
       </div>
     </div>
-  </div>;
+  </section>;
 };
 
 export default Hero;
