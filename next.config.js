@@ -9,7 +9,7 @@ const nextConfig = {
     formats: ["image/avif", "image/webp"],
   },
   env: {
-    GOOGLE_ANALYTICS_ID: "G-VFQXW7DZQT",
+    GOOGLE_ANALYTICS_ID: "G-QG1W8BD8CZ",
   },
 };
 
