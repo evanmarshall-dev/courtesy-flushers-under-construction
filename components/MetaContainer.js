@@ -12,7 +12,7 @@ export default function MetaContainer({ children, customMeta }) {
 
   const meta = {
     title: "Courtesy Flushers | Our Business is Literally your Business",
-    description: `A Nova Scotia plumbing and septic pumping service company`,
+    description: `A Nova Scotia plumbing, porta potty rental and septic pumping service company`,
     image: "../public/images/courtesy-flushers.png",
     type: "website",
     date: new Date().toDateString(),
