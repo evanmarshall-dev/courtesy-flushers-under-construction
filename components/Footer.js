@@ -4,12 +4,12 @@ export default function Footer() {
   return (
     <footer className="flex flex-col md:flex-row items-center justify-center w-full">
       <a
-        href="tel:+19025389161"
+        href="tel:+19026916616"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 bg-white border rounded-lg hover:text-gray-100 hover:bg-brand-primary focus:ring-4 focus:ring-gray-400 mr-0 md:mr-4 mb-4 w-full md:w-auto"
       >
-        Call us @ 902-538-9161{" "}
+        Call us @ 902-691-6616{" "}
         <svg
           className="w-4 h-4 ml-2 -mr-1"
           aria-hidden="true"
